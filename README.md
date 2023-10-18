@@ -1,6 +1,8 @@
 # Agency.sh
 
-`agency.sh` is a Bash script designed to monitor the availability of a web server specified by a URL. It continuously pings the server and takes specific actions based on the server's response or lack thereof. This script includes a function `make_curl_request` which sends HTTP requests to the provided URL and checks the response status code to determine if the server is online.
+`agency.sh` is a Bash script template designed to monitor the availability of a web server specified by a URL. It continuously pings the server and takes specific actions based on the server's response or lack thereof. This script includes a function `make_curl_request` which sends HTTP requests to the provided URL and checks the response status code to determine if the server is online. Script design to run `_agency.sh` under background.
+When certain conditions are met. In this case, when the CURL timeout by the amount of predefined seconds within predefined times then it will engage by running scripts.
+For this example, when the CURL to a specific URL being monitored is timeout over 3 times for specific, the tomcat being restarted (using ACTION_SCRIPT)
 
 ## Prerequisites
 
