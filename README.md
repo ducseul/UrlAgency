@@ -19,7 +19,7 @@
 
 ```bash
 ./agency.sh
-> Usage: [kill|start|status]</i> <br/>
+> Usage: [kill|start|status]
 ```
 When executed without any arguments, agency.sh continuously pings the specified URL and logs the results in the agency.log file. The script uses the make_curl_request function to check the server's response.'
 
